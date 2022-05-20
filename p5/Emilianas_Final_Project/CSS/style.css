@@ -1,0 +1,107 @@
+
+
+
+html, body{
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+/*------ALL------*/
+
+a{
+	text-decoration: none;
+}
+
+
+
+/**    Name    **/
+
+.nav{
+	background: white;
+	padding: 0 2rem;
+	height: 0rem;
+	min-height: 10vh;
+	overflow: hidden;
+}
+
+.nav .nav-brand a{
+	font-size: 1.6rem;
+	padding: 1rem 0;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	
+}
+
+video{
+	position: relative;
+	left: 700px;
+	bottom:50px;
+
+
+}
+
+/*   Title   */
+main .site-title{
+	background: url('../images/title_image.jpeg');
+	background-size:cover ;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+}
+
+main .site-title .site-background{
+	padding-top: 10rem;
+	text-align: center;
+	font-family: 'Wallpoet';
+	font-size: 50px;
+	color: #fb5607;
+}
+
+
+
+
+/* Blog text */ 
+
+
+h4{
+	padding-top: 6rem;
+	text-align: center;
+	margin: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fb5607;
+	
+
+}
+
+a{
+	
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+h3{
+	padding-top: 6rem;
+	text-align: center;
+	margin: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;	
+
+
+}
+
+p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	
+	margin: 1rem 2rem;
+	
+
+}
+
